@@ -62,7 +62,7 @@ python viz_kmeans_latent_space.py --latent_space output/latent_space_size_256.np
 </div>
 
 
-# Questions
+<!# Questions
 
 ### 1. Can you identify meaningful cluster structures for the test samples in the latent space?
 
@@ -90,4 +90,4 @@ To extend the clustering analysis on the latent space, I have added a k-means th
 </div>
 
 ### 3. How do the two representations learned from the two models compare?
-Limiting the latent space to dim2 makes it hard to compare the two models, but we can see that the custom sized latent space (256) is more spread out whereas the fixed sized latent space (2) is more compact to the least. Using 2 as dim for the latent space is not enough to capture the complexity of the dataset as we can also notice the reconstruction from the latter in the first figure.
+Limiting the latent space to dim2 makes it hard to compare the two models, but we can see that the custom sized latent space (256) is more spread out whereas the fixed sized latent space (2) is more compact to the least. Using 2 as dim for the latent space is not enough to capture the complexity of the dataset as we can also notice the reconstruction from the latter in the first figure.>
